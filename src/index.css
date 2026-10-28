@@ -1,0 +1,70 @@
+@import "tailwindcss";
+
+@layer base {
+  :root {
+    --font-heading: 'Cinzel', serif;
+    --font-sans: 'Plus Jakarta Sans', sans-serif;
+  }
+  
+  body {
+    font-family: var(--font-sans);
+    background-color: #f3efe6;
+    color: #2d3748;
+    overflow-x: hidden;
+  }
+
+  h1, h2, h3, .font-cinzel {
+    font-family: var(--font-heading);
+    letter-spacing: 0.03em;
+  }
+}
+
+/* Custom Scrollbar for Genshin Parchment Style */
+::-webkit-scrollbar {
+  width: 8px;
+  height: 8px;
+}
+::-webkit-scrollbar-track {
+  background: #e8e2d4;
+}
+::-webkit-scrollbar-thumb {
+  background: #cbb89d;
+  border-radius: 4px;
+}
+::-webkit-scrollbar-thumb:hover {
+  background: #b59f80;
+}
+
+/* Genshin Menu Parchment & Glass panels */
+.glass-panel {
+  background: rgba(253, 251, 246, 0.9);
+  backdrop-filter: blur(12px);
+  -webkit-backdrop-filter: blur(12px);
+  border: 1px solid rgba(206, 178, 133, 0.45);
+  box-shadow: 0 4px 20px -2px rgba(92, 70, 36, 0.06);
+}
+
+.glass-panel-hover {
+  transition: all 0.25s cubic-bezier(0.4, 0, 0.2, 1);
+}
+.glass-panel-hover:hover {
+  border-color: rgba(184, 142, 76, 0.85);
+  box-shadow: 0 10px 30px -4px rgba(184, 142, 76, 0.25);
+  transform: translateY(-2px);
+}
+
+.gold-glow {
+  box-shadow: 0 0 20px -2px rgba(212, 168, 93, 0.4);
+}
+
+.text-gold-gradient {
+  background: linear-gradient(135deg, #8a621c 0%, #ca963a 50%, #9e7225 100%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+.text-celestial-gradient {
+  background: linear-gradient(135deg, #1e3a8a 0%, #2563eb 50%, #0284c7 100%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}

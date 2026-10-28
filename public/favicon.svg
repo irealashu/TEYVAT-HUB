@@ -1,0 +1,51 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 100 100">
+  <defs>
+    <linearGradient id="paimon-gold" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#fff3d1" />
+      <stop offset="35%" stop-color="#f3d077" />
+      <stop offset="70%" stop-color="#d8a332" />
+      <stop offset="100%" stop-color="#966712" />
+    </linearGradient>
+    <linearGradient id="paimon-halo" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#d8a332" />
+      <stop offset="50%" stop-color="#fff8e7" />
+      <stop offset="100%" stop-color="#d8a332" />
+    </linearGradient>
+    <linearGradient id="paimon-clip" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#1e1b4b" />
+      <stop offset="50%" stop-color="#312e81" />
+      <stop offset="100%" stop-color="#0f172a" />
+    </linearGradient>
+    <linearGradient id="paimon-eye" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" stop-color="#38bdf8" />
+      <stop offset="60%" stop-color="#1d4ed8" />
+      <stop offset="100%" stop-color="#1e1b4b" />
+    </linearGradient>
+  </defs>
+
+  {/* Background Aura */}
+  <circle cx="50" cy="50" r="48" fill="#fef9c3" stroke="#eab308" stroke-width="2" />
+
+  {/* Halo */}
+  <ellipse cx="50" cy="24" rx="34" ry="10" stroke="url(#paimon-halo)" stroke-width="3" fill="none" />
+  <path d="M16 24 L20 20 L24 24 L20 28 Z" fill="#ffd700" />
+  <path d="M76 24 L80 20 L84 24 L80 28 Z" fill="#ffd700" />
+
+  {/* Hair */}
+  <path d="M22 62 C16 48 24 32 40 28 C46 22 54 22 60 28 C76 32 84 48 78 62 C82 72 74 86 64 88 C54 90 46 90 36 88 C26 86 18 72 22 62 Z" fill="#fdfbf7" stroke="#e5d8be" stroke-width="2" />
+  <path d="M32 46 C32 68 40 76 50 76 C60 76 68 68 68 46 C68 38 60 36 50 36 C40 36 32 38 32 46 Z" fill="#ffedd5" />
+
+  {/* Eyes */}
+  <ellipse cx="42" cy="54" rx="4" ry="6.5" fill="url(#paimon-eye)" />
+  <ellipse cx="58" cy="54" rx="4" ry="6.5" fill="url(#paimon-eye)" />
+  <circle cx="43.5" cy="51.5" r="1.5" fill="#ffffff" />
+  <circle cx="59.5" cy="51.5" r="1.5" fill="#ffffff" />
+
+  {/* Smile */}
+  <path d="M46 63 Q50 67 54 63" stroke="#9a3412" stroke-width="2" stroke-linecap="round" fill="none" />
+
+  {/* Crown Clip */}
+  <path d="M30 26 C42 18 58 18 70 26 L66 33 C56 28 44 28 34 33 Z" fill="url(#paimon-clip)" stroke="url(#paimon-gold)" stroke-width="1.5" />
+  <path d="M50 18 L53 25 L60 25 L54 29 L56 36 L50 31 L44 36 L46 29 L40 25 L47 25 Z" fill="url(#paimon-gold)" stroke="#78350f" stroke-width="0.5" />
+</svg>
+

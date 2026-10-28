@@ -1,0 +1,8 @@
+{
+  "name": "TEYVAT HUB",
+  "description": "Comprehensive anime-style Genshin Impact companion with 120+ character database up to Version 7.1, weapons arsenal, artifact sets, domain schedules, bosses, quests, and lore.",
+  "permissions": [],
+  "capabilities": [
+    "MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"
+  ]
+}
